@@ -8,13 +8,15 @@ body,html{
     display:flex;
     flex-direction: row;
     background-color: silver;
-    justify-content: space-around;
     flex-wrap: wrap;
-    height: 100px;
-    align-content: center;
+    width: 850px;
+    height: 300px;
+    align-content: space-around;
+    justify-content: space-around;
+    justify-items: center;
+    align-items: center;
     border-style: solid;
     border-color: black;
-    padding: 50px;
 
 }
 
@@ -32,4 +34,5 @@ body,html{
     text-align: center;
     border-style: solid;
     border-color: black;
+    margin: 20px;
 }
